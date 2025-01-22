@@ -15,6 +15,15 @@
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
 	</style>
+	<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(async function(OneSignal) {
+    await OneSignal.init({
+      appId: "f9902f60-f6e6-485e-938b-9c85f202f19e",
+    });
+  });
+</script>
 </head>
 <body>
 	<div class="logo"><img src="https://odh.sedh.gob.hn/static/publicosedh/logo/logo_Vertical_h.png" class="ima-1">
